@@ -1,4 +1,4 @@
-enum Choice {
+enum Choicetime {
     Year,
     Month,
     Day,
@@ -10,7 +10,7 @@ enum Choice {
 //% weight=70 icon="\uf075" color=#555555 block="時間"
 namespace time {
     //% blockId=show_strings block="時間 %v"
-    function unixtime(sec:number): void {
+    export function unixtime(sec:number): void {
         //変数定義
         let t = [];
         let y = 0;
@@ -122,9 +122,9 @@ namespace time {
         }
     }
 
-    //% block
-    export function turn(choice: Choice) {
-
+    //% blockId=show_strings block="時間1 %v"
+    export function turntime(e: Choicetime): void {
+        // Add code here
     }
     
 }
