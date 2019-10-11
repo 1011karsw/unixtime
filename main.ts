@@ -22,6 +22,7 @@ namespace basic {
 
     //% block
     export function turn(choice: Choice) {
+        basic.showIcon(IconNames.Heart)
 
     }
 
