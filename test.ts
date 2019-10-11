@@ -1,2 +1,2 @@
-basic.sec2date(1456723080);
-basic.time;
+//basic.sec2date(1456723080);
+//basic.time;
