@@ -1,7 +1,16 @@
+enum Choice {
+    Year,
+    Month,
+    Day,
+    Hour,
+    Minute,
+    Unixtime
+}
+
 //% weight=70 icon="\uf075" color=#555555 block="時間"
 namespace time {
     //% blockId=show_strings block="時間 %v"
-    export function unixtime(sec: number): void {
+    function unixtime(sec:number): void {
         //変数定義
         let t = [];
         let y = 0;
@@ -113,22 +122,9 @@ namespace time {
         }
     }
 
-    //**(テストケース)*****************************************
-    //sec2date(1456723080);   //2016/02/29 14:18:00 → OK
-    //sec2date(1456809480);   //2016/03/01 14:18:00 → OK
-    //sec2date(1570425480);   //2019-10-07 14:18:00 → OK
-    //sec2date(946652400);    //2000/01/01 00:00:00 → 1999:14/0 0:0 ?例外として対応
-    //sec2date(946652399);    //1999/12/31 23:59:59 → OK
-    //sec2date(946652401);    //2000/01/01 00:00:01 → OK
-    //sec2date(951836400);    //2000/03/01 00:00:00 → OK
-    //sec2date(946566000);    //1999/12/31 00:00:00 → OK
-    //sec2date(946479600);    //1999/12/30 00:00:00 → OK
-    //sec2date(946825199);    //2000/01/02 23:59:59 → OK
-    //sec2date(946738799);    //2000/01/01 23:59:59 → OK
-    //sec2date(1330557829);   //2012/03/01 08:23:49 → OK
-    //sec2date(68255942);     //1972/03/01 08:59:02 → OK
-    //sec2date();    // →
-    //sec2date();    // →
+    //% block
+    export function turn(choice: Choice) {
 
-    //**************************************************
+    }
+    
 }
