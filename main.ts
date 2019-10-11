@@ -1,4 +1,5 @@
-enum Choicetime {
+/*
+enum Choicetime2 {
     Year,
     Month,
     Day,
@@ -6,11 +7,12 @@ enum Choicetime {
     Minute,
     Unixtime
 }
+*/
 
 //% weight=70 icon="\uf075" color=#555555 block="時間"
 namespace time {
     //% blockId=show_strings block="時間 %v"
-    export function unixtime(sec:number): void {
+    function unixtime(sec:number): void {
         //変数定義
         let t = [];
         let y = 0;
@@ -121,10 +123,10 @@ namespace time {
             }
         }
     }
-
+/*
     //% blockId=show_strings block="時間1 %v"
     export function turntime(e: Choicetime): void {
         // Add code here
     }
-    
+    */
 }
