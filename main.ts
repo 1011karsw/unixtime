@@ -1,6 +1,6 @@
-//% weight=70 icon="\uf075" color=#555555 block="コメント"
+//% weight=70 icon="\uf075" color=#555555 block="時間"
 namespace time {
-    //% blockId=show_strings block="コメント %v"
+    //% blockId=show_strings block="時間 %v"
     export function unixtime(sec: number): void {
         //変数定義
         let t = [];

@@ -4,7 +4,8 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*"
+        "radio": "*",
+        "unixtime": "workspace:ed12a5e7-1580-4bec-748f-83373f03d893"
     },
     "files": [
         "README.md",
@@ -14,5 +15,6 @@
         "test.ts"
     ],
     "public": false,
-    "preferredEditor": "tsprj"
+    "preferredEditor": "tsprj",
+    "installedVersion": "workspace:ed12a5e7-1580-4bec-748f-83373f03d893"
 }
