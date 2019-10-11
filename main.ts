@@ -21,7 +21,7 @@ enum Choice2 {
 namespace basic {
 
     //% block
-    export function turn(choice: Choice) {
+    export function turn1(choice: Choice) {
         basic.showIcon(IconNames.Heart)
 
     }
